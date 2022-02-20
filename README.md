@@ -1,2 +1,2 @@
-# AJ-s-CS290-repo
-for my winter class in web development
+# AJ-s-CS260-repo
+for my winter class in data management
