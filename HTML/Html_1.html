@@ -1,5 +1,43 @@
 <!DOCTYPE html>
 <html>
+    <link href="Testing Javascript.html" rel="import">
+    <style>
+        table{
+            border: 1px solid red;
+            width: 80%;
+            height: 200px;
+            background-image: "Vamsi\images\image2.png";
+            border-spacing:150px 0px;
+            
+            
+        }
+        tr{
+            border: 10px solid black;
+            
+                      
+        }
+        td{
+            border: 1px solid blue;
+            text-align:center;
+            width: 300px;
+            height: 100%;
+            background-color:unset;
+            vertical-align: top;
+            
+            
+            
+            
+                        
+            
+            
+        }
+        CharacterTile{
+            color: blue;
+        }
+        
+        
+    </style>
+    <body>
     <center>
 
     <title>
@@ -50,29 +88,25 @@
     -->
 
 
-        
-    <style>
-        table{
-            border: 1px solid pink;
-            width: 20%;
-        }
-        th{
-            border: 1px solid pink;
-            width: 20%;
-        }
-    </style>
-    <table >
-    <tr style="width:max-content;">
-    <th style="width: 20%;"> <a href="Vamsi\Vamsi.html">Vam'si</a>  </th>    
-    <th style="width: 20%;"> <a href="Vamsi\Vamsi.html">Character2</a> </th>
-    <th style="width: 20%;"> <a href="Vamsi\Vamsi.html">Character3</a> </th>
-    <th style="width: 20%;"> <a href="Vamsi\Vamsi.html">Character4</a> </th>
-    <th style="width: 20%;"> <a href="Vamsi\Vamsi.html">Character5</a> </th>
-    <tr>
-    </table> 
-    </center>   
-    <p>
-        
-    </p>
+ 
     
+    <table>
+    
+        <tr>
+        <td id ="Character1"> 
+            <a href="Vamsi\Vamsi.html"> Vam'si <img id = 'CharacterTile' src="Vamsi\images\image2.png"> </td>  </a> 
+            
+        <td id ="Character2"> <a href="Vamsi\Vamsi.html">Varrok</a> </td>
+        <td id ="Character3"> <a href="Vamsi\Vamsi.html">Brynjar</a> </td>
+        <td id ="Character4"> <a href="Vamsi\Vamsi.html">Aster</a> </td>
+        <td id ="Character5"> <a href="Vamsi\Vamsi.html">Kaiyan</a> </td>
+        <tr>
+    </table> 
+
+     
+    <p>
+        <button type="button" onclick="document.getElementById('Character1').style.border = 'red';">Click Me!</button>  
+    </p>
+</body>
+</center> 
 </html>
